@@ -18,7 +18,11 @@ LLM Farm平台支持扩充对接各类国内外大模型，包括开源大模型
   
 ## 官方网站
   
+<<<<<<< HEAD
 [https:www.llmfarm.com](https:www.llmfarm.com)
+=======
+[http:www.llmfarm.com](https:www.llmfarm.com)
+>>>>>>> 2c66c0e9315369fde0c7fd4fd340c4d68771ba35
 
 ## 文档地址
   
@@ -120,3 +124,4 @@ llmfarm-chain地址：
 github地址：[https://github.com/LLMFarm/llmfarm-chain](https://github.com/LLMFarm/llmfarm-chain)
 
 gitee地址：[https://gitee.com/llmfarm/llmfarm-chain](https://gitee.com/llmfarm/llmfarm-chain)
+
