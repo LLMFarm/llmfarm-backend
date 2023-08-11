@@ -1,0 +1,42 @@
+server:
+  address:     ":8000"     #运行端口
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+logger:
+  level : "all"
+  stdout: true
+
+
+database:
+  logger:
+    level: "all"
+    stdout: true
+  default:
+    link: "mysql:root:Hex.123456@tcp(127.0.0.1:3306)/llmfarm?parseTime=true&loc=Local" #数据库连接配置
+    debug: true
+    charset: "utf8mb4"
+api:
+  chainApiDomain: "http://127.0.0.1:8080"    #llmfarm-chain的端口号
+
+versionType: "individual"
+fileStorageType: "local"  #存储方式 local为本地存储 oss为阿里云oss存储 obs为华为云存储
+
+ossconfig:
+  accessKeyId: ""
+  accessKeySecret: ""
+  bucket: ""
+  type: "aliyun"
+  isHttps: false
+  endpoint: ""
+  domain: ""
+obsconfig:
+  accessKeyId: ""
+  accessKeySecret: ""
+  bucket: ""
+  type: "huaweiyun"
+  endpoint: ""
+  domain: ""
+localconfig:
+  path: "/Users" # 本地存储绝对路径
+  domain: "localhost:8000"        # 本地存储访问路径
