@@ -1,18 +1,4 @@
-/*
- Navicat Premium Data Transfer
 
- Source Server         : 169
- Source Server Type    : MySQL
- Source Server Version : 80031
- Source Host           : 60.205.214.169
- Source Database       : llmfarm
-
- Target Server Type    : MySQL
- Target Server Version : 80031
- File Encoding         : utf-8
-
- Date: 08/11/2023 16:37:04 PM
-*/
 
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;

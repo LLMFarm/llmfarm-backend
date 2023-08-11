@@ -1,6 +1,6 @@
 # 平台简介
   
-大模型农场LLMFarm.com平台是全球领先的大模型中间层开发架构，帮助企业快速对接私有数据和各类海内外大模型，并可视化无代码化构建各类 AI First 应用，低成本落地各行业各类AI场景。本项目由宜创科技开发。
+大模型农场LLMFarm平台是全球领先的大模型中间层开发架构，帮助企业快速对接私有数据和各类海内外大模型，并可视化无代码化构建各类 AI First 应用，低成本落地各行业各类AI场景。本项目由宜创科技开发。
   
 ## 核心价值
   
@@ -18,11 +18,11 @@ LLM Farm平台支持扩充对接各类国内外大模型，包括开源大模型
   
 ## 官方网站
   
-[http:www.llmfarm.com](http:www.llmfarm.com)
+[http:www.llmfarm.com](https:www.llmfarm.com)
 
 ## 文档地址
   
-[LLMFarm新手指南](https://wudaima.yuque.com/wudaima/gc0yib?#)
+[LLMFarm新手指南](https://lxjcwfwipaa.feishu.cn/wiki/JiIBwo42wi53VEk4av4c8qRmnDc?from=from_copylink)
   
 ## 演示图
 ![链接](https://hexyun.oss-cn-beijing.aliyuncs.com/hwy/20230811164552.jpg)
@@ -32,7 +32,7 @@ LLM Farm平台支持扩充对接各类国内外大模型，包括开源大模型
   
 - 开源版
 
-    本项目提供的开源版本。目前仅包含提示词节点、gpt节点、输入节点。chain管理、bot管理、对话功能。后续版本会持续迭代更新功能。
+    本项目提供的开源版本。目前仅包含提示词节点、GPT节点、输入节点。Chain管理、Bot管理、对话功能。后续版本会持续迭代更新功能。
 - SaaS版
 
     SaaS版作为本产品功能最全，更新最及时的版本。提供包含多种模型节点、向量数据库相关节点、逻辑处理相关节点。提供开箱即用的机器人模板市场，LLMFarm平台已经提供500+的应用场景模板，用户只需下载即可一键使用，并可以进行二次开发和调整。
