@@ -42,6 +42,10 @@ LLM Farm平台支持扩充对接各类国内外大模型，包括开源大模型
     企业版包含SaaS版的全部功能。并根据SaaS版的更新进度进行更新。企业版可以进行企业私有化部署。保证企业的数据安全。
 
 ## 安装流程
+
+### 依赖
+Go 1.19+
+[GoFrame](https://https://goframe.org/pages/viewpage.action?pageId=1114399) 2.0+ 
   
 ### 配置文件
 manifest/config/config.yaml.bak 复制改为manifest/config/config.yaml
