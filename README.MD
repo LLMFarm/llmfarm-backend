@@ -1,3 +1,22 @@
+# LLM Farm
+<div align="center">
+	<img src="https://hexyun.oss-cn-beijing.aliyuncs.com/resource/6290817ac44d6f0d309afe34/b14b2ff81f6e7244fe61c37eef85866d.png">
+    <p>
+        <h1>LLM Farm</h1>
+    </p>
+    <p align="center">
+        <a href="https://goframe.org/pages/viewpage.action?pageId=1114119" target="_blank">
+	        <img src="https://img.shields.io/badge/goframe-2.0-green" alt="goframe">
+	    </a>
+	    <a href="https://v3.vuejs.org/" target="_blank">
+	        <img src="https://img.shields.io/badge/vue.js-vue3.x-green" alt="vue">
+	    </a>
+		<a href="https://vitejs.dev/" target="_blank">
+		    <img src="https://img.shields.io/badge/vite-%3E2.0.0-yellow" alt="vite">
+		</a>
+	</p>
+</div>
+
 # 平台简介
   
 大模型农场LLMFarm平台是全球领先的大模型中间层开发架构，帮助企业快速对接私有数据和各类海内外大模型，并可视化无代码化构建各类 AI First 应用，低成本落地各行业各类AI场景。本项目由宜创科技开发。
