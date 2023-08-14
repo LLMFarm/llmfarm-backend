@@ -241,23 +241,23 @@ func (c *MessageController) getMaxToken(nodes []map[string]interface{}) int {
 	maxToken := 15000
 
 	// 获取所有llm模型，做个map
-	var models []entity.Model
-	g.Model("model").Where("deleteTime is null").Scan(&models)
-	llmMap := map[string]int{}
-	for _, model := range models {
-		llmMap[model.Tag] = model.MaxTokenLimit
-	}
+	// var models []entity.Model
+	// g.Model("model").Where("deleteTime is null").Scan(&models)
+	// llmMap := map[string]int{}
+	// for _, model := range models {
+	// 	llmMap[model.Tag] = model.MaxTokenLimit
+	// }
 
 	// 找到chain里面maxTokenLimit最小的模型
-	for _, node := range nodes {
-		tag := getModelTag(node)
-		fmt.Println("tag:", tag)
-		if llmMap[tag] != 0 {
-			if llmMap[tag] < maxToken {
-				maxToken = llmMap[tag]
-			}
-		}
-	}
+	// for _, node := range nodes {
+	// 	tag := getModelTag(node)
+	// 	fmt.Println("tag:", tag)
+	// 	if llmMap[tag] != 0 {
+	// 		if llmMap[tag] < maxToken {
+	// 			maxToken = llmMap[tag]
+	// 		}
+	// 	}
+	// }
 
 	// 获取llm模型的最大token数
 	return maxToken
