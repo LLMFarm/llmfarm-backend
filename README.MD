@@ -1,4 +1,3 @@
-# LLM Farm
 <div align="center">
 	<img src="https://hexyun.oss-cn-beijing.aliyuncs.com/hwy/b14b2ff81f6e7244fe61c37eef85866d.png">
     <p>
